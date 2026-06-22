@@ -1,0 +1,870 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header_navbar ul {
+    gap: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    align-items: center;
+}
+
+.header_login_with_membership {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+
+.header {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_membership {
+    border-radius: 3rem;
+    font-size: 0.9em;
+    color: #fff;
+    background: #352d27;
+    padding: 0.6em 1em;
+    text-transform: uppercase;
+}
+
+.header_logo {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #352d27;
+    padding-left: 8rem;
+}
+
+.header_navbar ul li {
+    cursor: pointer;
+    font-weight: 600;
+    color: #5a5340;
+    font-size: 0.9rem;
+}
+
+.header_membership:hover {
+    background-color: #bc6b4e;
+    border-color: 2px solid #bc6b4e;
+}
+
+.header_logo:hover {
+    cursor: pointer;
+}
+
+.header_login_with_membership:hover h6 {
+    color: #bc6b4e;
+}
+
+.joy_of_yoga_btn:hover {
+    background-color: #bc6b4e;
+    color: #fff;
+}
+
+h3.instructor:hover {
+    color: #bc6b4e;
+}
+
+.aloe_anywhere_round:hover svg {
+    cursor: pointer;
+}
+
+.social_media_footer:hover svg {
+    cursor: pointer;
+}
+
+.header_login_with_membership h6 {
+    color: #5a5340;
+}
+
+.header_with_hero {
+    background: #f8f6f1;
+}
+
+.hero_img img {
+    width: 100%;
+    object-fit: cover;
+    height: 46rem;
+}
+
+.right_side_upper_text h2 {
+    width: 100%;
+    padding-left: 4rem;
+    font-size: 4rem;
+    max-width: 35rem;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif
+}
+
+.hero_img_with_text {
+    padding-top: 2rem;
+}
+
+.hero_img {
+    padding: 0;
+}
+
+.right_side_bottom_text {
+    background: #cdd7cc;
+    padding: 6rem 0rem 4.3rem 5rem;
+}
+
+.right_side_upper_text {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.right_side_bottom_text p {
+    max-width: 28rem;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.explore_class_hero {
+    padding: 0.7rem 1.4rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+    background: #352d27;
+    border-radius: 4rem;
+}
+
+.right_side_content {
+    padding: 0;
+}
+
+/* Joy Of Yoga */
+
+.yoga_image img {
+    object-fit: cover;
+    height: 37rem;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    border-top-left-radius: 19rem;
+    border-top-right-radius: 19rem;
+    max-width: 100%;
+}
+
+.yoga_image_with_content {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+.yoga_content_with_para h6 {
+    font-size: 0.9rem;
+    color: #bc6b4e;
+    text-transform: uppercase;
+}
+
+.yoga_content_with_para h2 {
+    padding-top: 4px;
+    font-family: serif;
+    line-height: 2.9rem;
+    padding-bottom: 1.6rem;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+p.yoga_para1 {
+    font-size: 21px;
+}
+
+p.yoga_para2 {
+    font-size: 21px;
+    padding-top: 0.6rem;
+    padding-bottom: 1.6rem;
+}
+
+.joy_of_yoga_btn {
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    width: 9rem;
+    border: 2px solid #00000000;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.8rem 2rem;
+}
+
+.yoga_content_with_para {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.round_joy {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    background: #bc6b4e;
+}
+
+.joy_of_yoga {
+    padding-top: 8rem;
+    background-color: #f8f6f1;
+}
+
+/* Day Money */
+
+.day_money_img img {
+    height: 28rem;
+    object-fit: cover;
+    width: 100%;
+}
+
+.day_money_text h3 {
+    max-width: 20rem;
+    font-weight: 500;
+    font-family: ui-sans-serif;
+    font-size: 3rem;
+}
+
+.day_money_text p {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    max-width: 26rem;
+    font-size: 1.1rem;
+}
+
+.day_money_buy_membership_btn {
+    padding: 0.7rem 1.7rem;
+    font-size: 0.8rem;
+    border: 1px solid #bc6b4e;
+    color: #fff;
+    border-radius: 2rem;
+    width: 10rem;
+    background: #bc6b4e;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.day_money_back_gurantee {
+    background: #f8f6f1;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.day_money_text {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Top Rated Instructions */
+
+.top_rated_img img {
+    object-fit: cover;
+    width: 17rem;
+    border-radius: 50%;
+    height: 17rem;
+    transition: trasform 0.3s ease-in-out;
+}
+
+.top_rated_img h2 {
+    padding-top: 1rem;
+    font-size: 1.9rem;
+    font-family: auto;
+}
+
+.top_rated_img h3 {
+    font-weight: 400;
+    color: #7e7067;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.top_rated_content_wrap {
+    text-align: center;
+}
+
+.top_rated_content_wrap h5 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #bc6b4e;
+    letter-spacing: 2px;
+}
+
+.top_rated_content_wrap h4 {
+    font-size: 2.9rem;
+    font-family: ui-sans-serif;
+}
+
+.top_rated_content_wrap p {
+    max-width: 44rem;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    margin: auto;
+}
+
+.wrapper_top_rated {
+    padding-top: 8rem;
+}
+
+.top_rated {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h3.instructor {
+    flex-direction: column;
+    display: flex;
+    line-height: 2rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding-top: 4rem;
+    font-weight: 400;
+    color: #7e7067;
+}
+
+h3.instructor span {
+    height: 1px;
+    width: 10.7rem;
+    background: #7e7067;
+    display: block;
+    text-align: center;
+}
+
+.top_rated_img h2 {
+    padding-top: 1rem;
+    font-family: auto;
+}
+
+.top_rated_img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Why Aloe */
+
+.wrapper_wjhy_aloe h3 {
+    font-weight: 500;
+    color: #352d27;
+    font-size: 2.5rem;
+    font-family: serif;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.why_aloe {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background: #cdd7cc;
+}
+
+.aloe_svg {
+    width: 2rem;
+    height: 2rem;
+    fill: #bc6b4e;
+}
+
+.aloe_anywhere_round {
+    display: flex;
+    justify-content: center;
+    width: 5rem;
+    border-radius: 50%;
+    background: #fff;
+    align-items: center;
+    height: 5rem;
+    border: 1px solid #fff;
+}
+
+.aloe_anywhere h3 {
+    padding-top: 1.2rem;
+    font-size: 1.3rem;
+    max-width: 12rem;
+    text-align: center;
+}
+
+.aloe_anywhere {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* /Client Review */
+
+.wrapper_client_review h4 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #bc6b4e;
+}
+
+.wrapper_client_review h2 {
+    font-size: 2.4rem;
+    padding-top: 0.4rem;
+    color: #352d27;
+    font-family: math;
+    font-weight: 600;
+}
+
+.wrapper_client_review {
+    text-align: center;
+}
+
+.client_reviews {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    background: #eeece7;
+}
+
+/* Completely Transformed */
+
+.completley_aloe_para_with.writter_name blockquote {
+    padding-bottom: 2rem;
+    margin: auto;
+    color: #352d27;
+    padding-top: 5rem;
+    font-family: ui-sans-serif;
+    max-width: 56rem;
+    width: 100%;
+    line-height: 3rem;
+    font-size: 3rem;
+}
+
+.completley_aloe_para_with.writter_name span {
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #352d27;
+    font-family: math;
+    text-transform: uppercase;
+    font-size: 1.1rem
+}
+
+.completely_aloe {
+    background-color: #cdd7cc;
+}
+
+.completley_aloe_para_with.writter_name {
+    text-align: center;
+}
+
+.wrap_completely_aloe::after {
+    padding-bottom: 4rem;
+    display: block;
+    content: "";
+    height: 1px;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    padding-top: 5rem;
+    background-color: #f8f6f1;
+    ;
+}
+
+.social_media_footer svg {
+    width: 12px;
+    fill: #352d27;
+}
+
+.newsletter h2 {
+    font-family: serif;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.newsletter_text {
+    padding: 0.6rem 0.3rem;
+    width: 20.4rem;
+    border: 2px solid #f8f6f1;
+}
+
+.newsletter_btn {
+    width: 5rem;
+    padding: 0.6rem 0.3rem;
+    background-color: #fff;
+    border: 2px solid #f8f6f1;
+}
+
+.subscribe_newsletter {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: hsl(24 10% 45%);
+}
+
+.right_column_with_footer1 ul {
+    list-style-type: none;
+}
+
+.right_column_with_footer1 ul li {
+    padding-bottom: 0.8rem;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    color: #352d27;
+}
+
+.right_column_with_footer2 ul li {
+    list-style: none;
+    font-size: 0.9rem;
+    padding-bottom: 0.4rem;
+}
+
+.newsletter_with_column {
+    display: flex;
+    justify-content: center;
+}
+
+.social_media_footer {
+    float: left;
+    padding-left: 2.6rem;
+}
+
+.social_media_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.newsletter_with_column::after {
+    height: 4rem;
+    width: 91%;
+    content: "";
+    display: block;
+    border-bottom: 1px solid #e0dcd1;
+}
+
+.made_with_intenstion {
+    width: 100%;
+    margin: auto;
+    max-width: 93%;
+    color: #e0dcd1;
+    font-size: 0.8rem;
+    display: flex;
+    padding-top: 1.7rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.made_with_intenstion h6 {
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.wrapper_subscribe_newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 0.7rem;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 11px;
+    width: fit-content;
+}
+
+.hamburger span {
+    display: block;
+    background: red;
+    width: 4rem;
+    height: 3px;
+}
+
+/* Mobile view */
+
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+    .header_navbar ul {
+        gap: 3rem;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header_navbar ul {
+        display: none;
+        padding-top: 2rem;
+        margin: 0;
+    }
+
+    .day_money_back_gurantee {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    .top_rated_content_wrap p {
+        padding-bottom: 1rem;
+    }
+
+    .yoga_content_with_para {
+       padding-top: 3rem;
+    }
+
+    .top_rated_img {
+       padding-top: 1.5rem;
+    }
+
+    h3.instructor {
+        padding-top: 2rem;
+    }
+
+    .wrap_explore_class_hero {
+        padding-left: 7.5rem;
+    }
+
+    .wrapper_wjhy_aloe h3 {
+        padding-bottom: 2rem;
+        font-size: 2rem;
+    }
+    .why_aloe {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .client_reviews {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .hamburger {
+        display: flex;
+    }
+    .newsletter_text {
+        width: 11.4rem;
+    }
+    .newsletter_btn {
+        width: 4rem;
+    }
+    .header_navbar {
+        display: none;
+    }
+
+    .header_navbar ul li {
+        color: #fff;
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .header_login_with_membership {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #222;
+        padding-bottom: 1rem;
+    }
+
+    .header_logo {
+        width: auto;
+        padding-left: 12px;
+        color: #eee;
+    }
+
+    .hero_img_with_text {
+        padding-top: 0rem;
+    }
+
+    .hamburger.open span:nth-child(2) {
+        visibility: hidden;
+    }
+
+    .hamburger.open span:nth-child(1) {
+        transform: translate(6px, 6px) rotate(45deg);
+    }
+
+    .hamburger.open span:nth-child(3) {
+        transform: rotate(-45deg) translate(19px, -10px);
+    }
+    .right_side_upper_text h2 {
+        padding-left: 0;
+        margin: auto;
+    }
+    .right_side_upper_text {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .right_side_bottom_text p {
+        max-width: 40rem;
+        font-size: 2.3rem;
+        line-height: 2.9rem;
+        padding-bottom: 1rem;
+        width: 100%;
+        margin: auto;
+    }
+    .right_side_bottom_text {
+        padding: 3rem 3rem;
+    }
+    .joy_of_yoga {
+        padding-top: 3rem;
+    }
+    p.yoga_para2 {
+        padding-bottom: 0.6rem;
+    }
+    .yoga_image_with_content {
+        padding-bottom: 1rem;
+    }
+    .wrapper_top_rated {
+        padding-top: 4rem;
+    }
+    .top_rated_content_wrap p {
+        padding-bottom: 3rem;
+    }
+    .top_rated {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .yoga_content_with_para {
+        padding-top: 3rem;
+    }
+
+    .joy_of_yoga {
+        padding-top: 3rem;
+    }
+
+    p.yoga_para2 {
+        padding-bottom: 0;
+    }
+
+    .day_money_text h3 {
+        text-align: center;
+        font-size: 2rem;
+        max-width: none;
+    }
+
+    .day_money_text {
+        padding-left: 0;
+    }
+
+    .day_money_text p {
+        margin: auto;
+    }
+
+    .yoga_image_with_content {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .right_side_bottom_text p {
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
+
+    .wrap_explore_class_hero {
+        padding-left: 0;
+    }
+
+    .day_money_back_gurantee {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .day_money_img {
+        padding-top: 2rem;
+    }
+
+    .wrapper_top_rated {
+        padding-top: 3rem;
+    }
+
+    .top_rated_content_wrap p {
+        padding-bottom: 0rem;
+        padding-top: 1rem;
+    }
+
+    .top_rated_img {
+        padding-top: 1.3rem;
+    }
+
+    .wrapper_wjhy_aloe h3 {
+        padding-bottom: 0;
+    }
+
+    .why_aloe {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .aloe_anywhere {
+        padding-top: 1rem;
+    }
+
+    .completley_aloe_para_with.writter_name blockquote {
+        padding-bottom: 1rem;
+        padding-top: 3rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .right_side_upper_text {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .right_side_upper_text h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin: auto;
+        padding-left: 0;
+    }
+
+    .aloe_anywhere h3 {
+       padding-top: 0.8rem;
+    }
+
+    .client_reviews {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    .right_column_with_footer2,
+    .right_column_with_footer1 {
+        padding-top: 2rem;
+    }
+
+    .newsletter_with_column::after {
+        height: 1rem;
+    }
+
+    footer {
+        padding-top: 3rem;
+    }
+
+    h3.instructor{
+        padding-top: 1rem;
+    }
+
+    .wrap_completely_aloe::after {
+       padding-bottom: 2rem;
+    }
+}
