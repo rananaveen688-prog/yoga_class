@@ -980,4 +980,7 @@ footer {
     .hamburger span {
         width: 1.5rem;
     }
+     p.yoga_para2 {
+        font-size: 16px;
+    }
 }
