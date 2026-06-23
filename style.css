@@ -673,7 +673,8 @@ footer {
         align-items: center;
         justify-content: space-between;
         background: #222;
-        padding-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        padding-top: 1rem;
     }
 
     .header_logo {
