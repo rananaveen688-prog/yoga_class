@@ -985,4 +985,8 @@ footer {
         font-size: 13px;
         font-family: sans-serif;
     }
+    .day_money_img img {
+        height: 22rem;
+        object-position: bottom;
+    }
 }
