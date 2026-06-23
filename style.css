@@ -657,10 +657,6 @@ footer {
     .newsletter_btn {
         width: 4rem;
     }
-    .header_navbar {
-        display: none;
-    }
-
     .header_navbar ul li {
         color: #fff;
         padding-bottom: 1rem;
