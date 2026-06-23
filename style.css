@@ -657,6 +657,7 @@ footer {
     .newsletter_btn {
         width: 4rem;
     }
+
     .header_navbar ul li {
         color: #fff;
         padding-bottom: 1rem;
@@ -690,7 +691,7 @@ footer {
     }
 
     .hamburger.open span:nth-child(1) {
-        transform: translate(6px, 6px) rotate(45deg);
+        transform: translate(7px, 7px) rotate(45deg);
     }
 
     .hamburger.open span:nth-child(3) {
@@ -862,5 +863,121 @@ footer {
 
     .wrap_completely_aloe::after {
        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 416px){
+    .day_money_text h3{
+        font-size: 1.5rem;
+    }
+    .day_money_text p {
+        padding-left: 1.5rem;
+    }
+    .top_rated_img h2 {
+        font-size: 1.4rem;
+    }
+    .top_rated_img h3 {
+       font-size: 0.9rem;
+    }
+    .aloe_anywhere h3 {
+        font-size: 1rem;
+    }
+    .wrapper_client_review h2 {
+        font-size: 1.5rem;
+    }
+    .wrapper_client_review h4 {
+        font-size: 0.8rem;
+    }
+    .newsletter h2 {
+        font-size: 1.3rem;
+    }
+    .completley_aloe_para_with.writter_name span {
+        font-size: 0.8rem;
+    }
+    .completley_aloe_para_with.writter_name blockquote {
+        font-size: 1.1rem;
+        padding-bottom: 0.4rem;
+        padding-top: 2rem;
+    }
+    footer {
+        padding-top: 2rem;
+    }
+    .right_column_with_footer1 ul li {
+      font-size: 0.7rem;
+    }
+    .right_column_with_footer1 {
+        padding-top: 1.3rem;
+    }
+    .right_column_with_footer2 ul li {
+        font-size: 0.8rem;
+    }
+    .client_reviews {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    .top_rated_content_wrap h4 {
+       font-size: 1.9rem;
+    }
+    .top_rated_content_wrap p {
+        padding-bottom: 0.7rem;
+        padding-top: 0.5rem;
+    }
+    .yoga_content_with_para h2 {
+        font-size: 2rem;
+        padding-bottom: 0.6rem;
+        text-align: center;
+        padding-top: 0px;
+    }
+    p.yoga_para1 {
+        font-size: 16px;
+    }
+    .yoga_content_with_para h6 {
+        text-align: center;
+    }
+    .yoga_image img {
+        height: 28rem;
+    }
+    .yoga_content_with_para {
+        padding-top: 2rem;
+    }
+    .round_joy {
+        height: 9rem;
+        width: 9rem;
+    }
+    .joy_of_yoga {
+        padding-top: 1rem;
+    }
+    .right_side_bottom_text p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .right_side_bottom_text {
+        padding: 2rem 2rem;
+    }
+    .right_side_upper_text h2 {
+        font-size: 1.6rem;
+    }
+    .right_side_upper_text {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .hero_img img {
+        height: 28rem;
+    }
+    .header {
+        padding-top: 1rem;
+        padding-bottom: 0.5em;
+    }
+    .header_navbar ul {
+        padding-top: 1rem;
+    }
+    .header_navbar ul li {
+        font-size: 1rem;
+    }
+    .header_logo {
+        font-size: 1.5rem;
+    }
+    .hamburger span {
+        width: 1.5rem;
     }
 }
