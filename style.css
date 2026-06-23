@@ -590,7 +590,7 @@ footer {
 .hamburger span {
     display: block;
     background: red;
-    width: 4rem;
+    width: 2rem;
     height: 3px;
 }
 
