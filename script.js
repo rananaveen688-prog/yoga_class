@@ -7,4 +7,9 @@ $(document).ready(function () {
         $('.header_navbar ul').slideUp('300');
         $('.hamburger').removeClass('open');
     });
+
+     $('li.clickclass').on('click', function (e) {
+        e.preventDefault();
+        $('.message ul').slideToggle(500);
+    });
 });
