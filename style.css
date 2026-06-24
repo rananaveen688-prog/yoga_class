@@ -614,6 +614,8 @@ li.clickclass {
     left: 0;
 }
 
+/* message2 */
+
 .message1  {
     display: none;
 }
@@ -631,6 +633,7 @@ li.clickclass {
 .message1 {
     position: relative;
 }
+
 
 /* Mobile view */
 
@@ -1029,3 +1032,4 @@ li.clickclass {
         object-position: bottom;
     }
 }
+
