@@ -614,6 +614,24 @@ li.clickclass {
     left: 0;
 }
 
+.message1  {
+    display: none;
+}
+
+.message1 ul {
+    border: 2px solid #e63946;
+    background: #e63946;
+    z-index: 1000;
+    margin-left: 1rem;
+    position: absolute;
+    width: max-content;
+    top: 0;
+    left: 100%;
+}
+.message1 {
+    position: relative;
+}
+
 /* Mobile view */
 
 @media screen and (min-width: 991px) and (max-width: 1024px) {
