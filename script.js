@@ -4,12 +4,19 @@ $(document).ready(function () {
         $(this).toggleClass('open');
     });
     $('.header_navbar ul li').on('click', function () {
-        $('.header_navbar ul').slideUp('300');
+        // $('.header_navbar ul').slideUp('300');
         $('.hamburger').removeClass('open');
     });
 
-     $('li.clickclass').on('click', function (e) {
+    $('li.clickclass').on('click', function (e) {
         e.preventDefault();
         $('.message ul').slideToggle(500);
+        
+    });
+
+    $('li.submenu1').on('click',function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        $('.message1').slideToggle(500);
     });
 });
